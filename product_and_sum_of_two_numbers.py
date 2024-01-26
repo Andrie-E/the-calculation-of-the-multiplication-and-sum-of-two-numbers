@@ -15,7 +15,9 @@ if number1 * number2 <= 1000:
 else:
 # If the values are over 1000, sum it  
     result = number1 + number2
-print(result)
+# Print the result for 1st given
+print("The result is", result)
+
 # Check if the values for given 2 is less than or equal to 1000  
 if number3 * number4 <= 1000:
 # Return if the condition is true
@@ -23,5 +25,5 @@ if number3 * number4 <= 1000:
 else:
 # If the values are over 1000, sum it
     result = number3 + number4
-print (result)
-# Print the result
+# Print the result for 2nd given
+print("The result is", result)

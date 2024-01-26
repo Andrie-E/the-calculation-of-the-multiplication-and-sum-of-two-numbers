@@ -17,6 +17,11 @@ else:
     result = number1 + number2
 print(result)
 # Check if the values for given 2 is less than or equal to 1000  
+if number3 * number4 <= 1000:
 # Return if the condition is true
+    result = number3 * number4
+else:
 # If the values are over 1000, sum it
+    result = number3 + number4
+print (result)
 # Print the result

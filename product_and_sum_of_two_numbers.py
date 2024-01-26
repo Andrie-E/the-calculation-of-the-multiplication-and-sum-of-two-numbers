@@ -9,8 +9,13 @@ number3 = 40
 number4 = 30
 
 # Check if the values for given 1 is less than or equal to 1000
+if number1 * number2 <= 1000:
 # Return if the condition is true
+    result = number1 * number2
+else:
 # If the values are over 1000, sum it  
+    result = number1 + number2
+print(result)
 # Check if the values for given 2 is less than or equal to 1000  
 # Return if the condition is true
 # If the values are over 1000, sum it
